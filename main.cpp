@@ -17,7 +17,7 @@ int main()
   int begin_index = 0;
 
 
-  // Initializing the connection matrix
+  // Connection matrix initializing
   for (int i = 0; i<SIZE; i++)
   {
     con_matrix[i][i] = 0;
@@ -37,7 +37,7 @@ int main()
   }
 
 
- //Initializing vertices and distances
+ // Vertices and distances initializing
 
   for (int i = 0; i<SIZE; i++)
   {
