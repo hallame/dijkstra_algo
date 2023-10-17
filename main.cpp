@@ -12,7 +12,7 @@ int main()
 {
   int con_matrix[SIZE][SIZE];                                                    // connection matrix
   int min_d[SIZE];                                                              // minimum distance
-  int v_peaks[SIZE];                                                           // visited peaks //
+  int v_peaks[SIZE];                                                           // visited peaks
   int t, minindex, min;
   int begin_index = 0;
 
